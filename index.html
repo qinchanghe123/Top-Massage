@@ -1,13 +1,14 @@
+<!-- ====== File 1: Top Massage ====== -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/x-icon" href="favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>King Foot Massage</title>
+    <title>Top Massage</title>
     <meta
       name="description"
-      content="Experience ultimate relaxation at King Foot Massage, known for exceptional massages tailored to your needs. Clients love our serene environment, skilled therapists, and personalized care. Unwind and recharge with us."
+      content="Experience ultimate relaxation at Top Massage, known for exceptional massages tailored to your needs. Visit us at 650 NW 12th St, Moore, OK 73160. Open 9:30 AM – 10:00 PM."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -156,169 +157,6 @@
         font-style: italic;
       }
 
-      /* Gallery Section */
-      #gallery {
-        background: linear-gradient(135deg, #f0f4ff 0%, #e1ecff 100%);
-        padding: 60px 20px;
-      }
-
-      .gallery-container {
-        max-width: 1200px;
-        margin: 0 auto;
-      }
-
-      .gallery-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 25px;
-        margin: 40px 0;
-      }
-
-      .gallery-item {
-        position: relative;
-        overflow: hidden;
-        border-radius: 15px;
-        box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-        transition: all 0.3s ease;
-        cursor: pointer;
-        background: white;
-        aspect-ratio: 4/3;
-      }
-
-      .gallery-item:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 15px 35px rgba(0,0,0,0.2);
-      }
-
-      .gallery-item img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform 0.3s ease;
-      }
-
-      .gallery-item:hover img {
-        transform: scale(1.05);
-      }
-
-      .gallery-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: linear-gradient(135deg, rgba(107, 115, 255, 0.8), rgba(118, 75, 162, 0.8));
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-      }
-
-      .gallery-item:hover .gallery-overlay {
-        opacity: 1;
-      }
-
-      .gallery-overlay-text {
-        color: white;
-        text-align: center;
-        padding: 20px;
-      }
-
-      .gallery-overlay h3 {
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-        color: white;
-      }
-
-      .gallery-overlay p {
-        font-size: 1rem;
-        opacity: 0.9;
-      }
-
-      /* Modal for full-size image viewing */
-      .modal {
-        display: none;
-        position: fixed;
-        z-index: 2000;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0,0,0,0.9);
-        animation: fadeIn 0.3s ease;
-      }
-
-      .modal.active {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      @keyframes fadeIn {
-        from { opacity: 0; }
-        to { opacity: 1; }
-      }
-
-      .modal-content {
-        position: relative;
-        max-width: 90%;
-        max-height: 90%;
-        margin: auto;
-      }
-
-      .modal-content img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-      }
-
-      .close-modal {
-        position: absolute;
-        top: -40px;
-        right: 0;
-        color: white;
-        font-size: 35px;
-        font-weight: bold;
-        cursor: pointer;
-        background: none;
-        border: none;
-        transition: color 0.3s ease;
-      }
-
-      .close-modal:hover {
-        color: #6B73FF;
-      }
-
-      .gallery-nav {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background: rgba(255,255,255,0.2);
-        backdrop-filter: blur(10px);
-        color: white;
-        border: none;
-        font-size: 24px;
-        padding: 15px 20px;
-        cursor: pointer;
-        border-radius: 50%;
-        transition: all 0.3s ease;
-      }
-
-      .gallery-nav:hover {
-        background: rgba(255,255,255,0.3);
-        transform: translateY(-50%) scale(1.1);
-      }
-
-      .prev-btn {
-        left: -60px;
-      }
-
-      .next-btn {
-        right: -60px;
-      }
-
       /* Call and Book Online Section */
       .contact-buttons {
         display: flex;
@@ -369,6 +207,166 @@
       .contact-card p {
         color: #666;
         line-height: 1.5;
+      }
+
+      /* Gallery Section Styles */
+      #gallery {
+        background: linear-gradient(135deg, #f8f9ff 0%, #eef1ff 100%);
+        padding: 80px 20px;
+      }
+
+      .gallery-container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        margin: 40px 0;
+      }
+
+      .photo-item {
+        position: relative;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+        cursor: pointer;
+        background: white;
+        aspect-ratio: 4/3;
+      }
+
+      .photo-item:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+      }
+
+      .photo-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+
+      .photo-item:hover img {
+        transform: scale(1.05);
+      }
+
+      .photo-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(transparent, rgba(0,0,0,0.7));
+        color: white;
+        padding: 20px;
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+      }
+
+      .photo-item:hover .photo-overlay {
+        transform: translateY(0);
+      }
+
+      .photo-overlay h4 {
+        margin: 0 0 5px 0;
+        font-size: 1.2rem;
+      }
+
+      .photo-overlay p {
+        margin: 0;
+        font-size: 0.9rem;
+        opacity: 0.9;
+      }
+
+      /* Lightbox Styles */
+      .lightbox {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.9);
+        z-index: 2000;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .lightbox.active {
+        display: flex;
+      }
+
+      .lightbox-content {
+        position: relative;
+        max-width: 90%;
+        max-height: 90%;
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+      }
+
+      .lightbox img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .lightbox-close {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+        background: rgba(0,0,0,0.5);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background 0.3s ease;
+      }
+
+      .lightbox-close:hover {
+        background: rgba(0,0,0,0.8);
+      }
+
+      .lightbox-nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0,0,0,0.5);
+        color: white;
+        border: none;
+        font-size: 24px;
+        padding: 15px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+        border-radius: 5px;
+      }
+
+      .lightbox-nav:hover {
+        background: rgba(0,0,0,0.8);
+      }
+
+      .lightbox-prev {
+        left: 20px;
+      }
+
+      .lightbox-next {
+        right: 20px;
+      }
+
+      .loading-message {
+        text-align: center;
+        color: #666;
+        font-style: italic;
+        margin: 40px 0;
       }
 
       /* Booking Form */
@@ -675,18 +673,27 @@
           max-width: 400px;
         }
 
-        .gallery-grid {
-          grid-template-columns: 1fr;
-          gap: 20px;
+        .photo-grid {
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 15px;
         }
 
-        .gallery-nav {
-          display: none;
-        }
-
-        .modal-content {
+        .lightbox-content {
           max-width: 95%;
-          max-height: 85%;
+          max-height: 95%;
+        }
+
+        .lightbox-nav {
+          padding: 10px;
+          font-size: 20px;
+        }
+
+        .lightbox-prev {
+          left: 10px;
+        }
+
+        .lightbox-next {
+          right: 10px;
         }
       }
 
@@ -716,10 +723,9 @@
           font-size: 1.6rem;
         }
 
-        .gallery-grid {
+        .photo-grid {
           grid-template-columns: 1fr;
           gap: 15px;
-          margin: 20px 0;
         }
       }
     </style>
@@ -739,7 +745,7 @@
     <!-- Home Section -->
     <section id="home" class="home">
       <div class="home-content">
-        <h1>King Foot Massage</h1>
+        <h1>Top Massage</h1>
         <p class="spa-tagline">Your sanctuary of tranquility and rejuvenation</p>
       </div>
 
@@ -748,7 +754,7 @@
         <!-- Call Card -->
         <div class="contact-card">
           <h3>📞 Call for Appointment</h3>
-          <a href="tel:+1-469-639-0889" class="phone-number">469-639-0889</a>
+          <a href="tel:+1-678-237-2461" class="phone-number">678-237-2461</a>
           <p>Speak directly with our friendly staff to schedule your perfect massage experience within 30 minutes.</p>
         </div>
 
@@ -889,9 +895,133 @@
             <h4>90 min (Head+Arm+Foot+Back): $90 Cash / $95 Card</h4>
           </div>
         </div>
+      </div>
+    </section>
 
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <div class="gallery-container">
+        <h2>Gallery</h2>
+        <h4>Peek into our calming space and treatments</h4>
+        <div class="photo-grid">
+          <div class="photo-item"><img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1200&auto=format&fit=crop" alt="Massage room"><div class="photo-overlay"><h4>Serene Room</h4><p>Unwind in comfort</p></div></div>
+          <div class="photo-item"><img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=1200&auto=format&fit=crop" alt="Hot stones"><div class="photo-overlay"><h4>Hot Stones</h4><p>Deep relaxation</p></div></div>
+          <div class="photo-item"><img src="https://images.unsplash.com/photo-1600334129128-685c5582fd5a?q=80&w=1200&auto=format&fit=crop" alt="Foot massage"><div class="photo-overlay"><h4>Foot Massage</h4><p>Relieve fatigue</p></div></div>
+          <div class="photo-item"><img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?q=80&w=1200&auto=format&fit=crop" alt="Essential oils"><div class="photo-overlay"><h4>Aromatherapy</h4><p>Soothing scents</p></div></div>
+          <div class="photo-item"><img src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31?q=80&w=1200&auto=format&fit=crop" alt="Reception"><div class="photo-overlay"><h4>Reception</h4><p>Warm welcome</p></div></div>
+          <div class="photo-item"><img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?q=80&w=1200&auto=format&fit=crop" alt="Relaxation area"><div class="photo-overlay"><h4>Relaxation</h4><p>Peaceful vibe</p></div></div>
+        </div>
+      </div>
+
+      <!-- Lightbox -->
+      <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+          <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+          <button class="lightbox-nav lightbox-prev" onclick="prevImage()">&#10094;</button>
+          <img id="lightboxImg" src="" alt="Gallery image">
+          <button class="lightbox-nav lightbox-next" onclick="nextImage()">&#10095;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Specials Section -->
+    <section id="specials">
+      <h2>Seasonal Specials</h2>
+      <h4>Limited-time offers crafted for deeper relaxation</h4>
+      <div class="services">
         <div class="service-box">
-          <h3>Chair Massage</h3>
-          <p>
-            Quick and convenient chair massage perfect for targeting neck, shoulders, and back tension during your busy day.
-          </p>
+          <h3>Hot Stone Upgrade</h3>
+          <p>Add hot stones to any 60/90 min body massage for enhanced muscle relief.</p>
+          <div class="price-wrapper">
+            <h4>+$10 with any 60/90 min Body Massage</h4>
+          </div>
+        </div>
+        <div class="service-box">
+          <h3>Body + Foot Bliss</h3>
+          <p>Enjoy a balanced session combining full body work with focused foot reflexology.</p>
+          <div class="price-wrapper">
+            <h4>90 min Combo: $100 Cash / $105 Card</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact & Visit Us</h2>
+      <h4>We’re happy to help you feel your best</h4>
+      <div class="appointment-card">
+        <div class="appointment-map">
+          <iframe
+            title="map"
+            width="320"
+            height="240"
+            style="border:0;border-radius:12px;"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=650%20NW%2012th%20St%2C%20Moore%2C%20OK%2073160&output=embed">
+          </iframe>
+          <h3>Top Massage</h3>
+        </div>
+        <div class="appointment-info">
+          <p><strong>Address:</strong> 650 NW 12th St, Moore, OK 73160</p>
+          <p><strong>Phone:</strong> <a href="tel:+1-678-237-2461">678-237-2461</a></p>
+          <p><strong>Hours:</strong> 9:30 AM – 10:00 PM (Every Day)</p>
+          <p><strong>Booking:</strong> Use the button above or call us for same-day appointments.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Top Massage. All rights reserved.</p>
+    </footer>
+
+    <script>
+      // Booking form
+      function showBookingForm(){ document.getElementById('bookingForm').classList.add('active'); }
+      function hideBookingForm(){ document.getElementById('bookingForm').classList.remove('active'); }
+      function submitBooking(e){
+        e.preventDefault();
+        alert('Thank you! We will contact you shortly to confirm your appointment.');
+        hideBookingForm();
+      }
+
+      // Services hover/tap to reveal prices
+      document.querySelectorAll('.service-box').forEach(box => {
+        const p = box.querySelector('.price-wrapper');
+        box.addEventListener('mouseenter', ()=>{ p.style.display='block'; });
+        box.addEventListener('mouseleave', ()=>{ p.style.display='none'; });
+        box.addEventListener('click', ()=>{
+          p.style.display = (p.style.display === 'block') ? 'none' : 'block';
+        });
+      });
+
+      // Gallery Lightbox
+      const images = Array.from(document.querySelectorAll('.photo-item img')).map(img=>img.src);
+      let currentIndex = 0;
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightboxImg');
+
+      document.querySelectorAll('.photo-item img').forEach((img, idx) => {
+        img.addEventListener('click', () => {
+          currentIndex = idx;
+          lightboxImg.src = images[currentIndex];
+          lightbox.classList.add('active');
+        });
+      });
+
+      function closeLightbox(){ lightbox.classList.remove('active'); }
+      function prevImage(){
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        lightboxImg.src = images[currentIndex];
+      }
+      function nextImage(){
+        currentIndex = (currentIndex + 1) % images.length;
+        lightboxImg.src = images[currentIndex];
+      }
+
+      // Footer year
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
